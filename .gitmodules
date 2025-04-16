@@ -1,0 +1,12 @@
+[submodule "top-nav"]
+	path = top-nav
+	url = https://github.com/dayo777/top-nav.git
+[submodule "bottom-nav"]
+	path = bottom-nav
+	url = https://github.com/dayo777/bottom-nav.git
+[submodule "community"]
+	path = community
+	url = https://github.com/dayo777/community.git
+[submodule "about-us"]
+	path = about-us
+	url = https://github.com/dayo777/about-us.git

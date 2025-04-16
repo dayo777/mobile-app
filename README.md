@@ -16,50 +16,49 @@ This sandbox environment is designed for:
 
 This repository currently houses the following submodules:
 
-* **`modules/top-nav`**: Contains the HTML, CSS, and JavaScript for the top navigation bar component.
+* **`/top-nav`**: Contains the HTML, CSS, and JavaScript for the top navigation bar component.
     * [Link to the `top-nav` submodule repository (if public)]
-    * See its [README](modules/top-nav/README.md) for specific details.
-* **`modules/community`**: Contains the HTML, CSS, and JavaScript for the community feed section.
+    * See its [README](top-nav/README.md) for specific details.
+* **`/community`**: Contains the HTML, CSS, and JavaScript for the community feed section.
     * [Link to the `community` submodule repository (if public)]
-    * See its [README](modules/community/README.md) for specific details.
-* **`modules/bottom-nav`**: Contains the HTML, CSS, and JavaScript for the bottom navigation bar component.
+    * See its [README](community/README.md) for specific details.
+* **`/bottom-nav`**: Contains the HTML, CSS, and JavaScript for the bottom navigation bar component.
     * [Link to the `bottom-nav` submodule repository (if public)]
-    * See its [README](modules/bottom-nav/README.md) for specific details.
-* **`modules/about-us`**: Contains the HTML, CSS, and JavaScript for the "About Us" section.
+    * See its [README](bottom-nav/README.md) for specific details.
+* **`/about-us`**: Contains the HTML, CSS, and JavaScript for the "About Us" section.
     * [Link to the `about-us` submodule repository (if public)]
-    * See its [README](modules/about-us/README.md) for specific details.
+    * See its [README](about-us/README.md) for specific details.
 
 
 ## Usage
 
 The `src/index.js` file in this main repository serves as the entry point for integrating and calling the JavaScript functions from the various submodules. The `index.html` provides the basic HTML structure with container `div` elements where the content from the submodules will be injected.
 
-Refer to the individual README files within each submodule's directory (`modules/<module-name>/README.md`) for specific instructions on how their components are initialized and can be further customized.
+Refer to the individual README files within each submodule's directory (`<module-name>/README.md`) for specific instructions on how their components are initialized and can be further customized.
 
 ## Project Structure
 mobile-app/
 ├── .git/
 ├── .gitmodules
-├── modules/
-│   ├── about-us/
-│   │   ├── src/
-│   │   │   ├── about-us.css
+├── about-us/
+│   ├── src/
+│   │   ├── about-us.css
 │   │   │   ├── about-us.html
 │   │   │   └── about-us.js
 │   │   └── README.md
-│   ├── bottom-nav/
+├── bottom-nav/
 │   │   ├── src/
 │   │   │   ├── bottom-nav.css
 │   │   │   ├── bottom-nav.html
 │   │   │   └── bottom-nav.js
 │   │   └── README.md
-│   ├── community/
+├── community/
 │   │   ├── src/
 │   │   │   ├── community.css
 │   │   │   ├── community.html
 │   │   │   └── community.js
 │   │   └── README.md
-│   └── top-nav/
+└── top-nav/
 │       ├── src/
 │       │   ├── top-nav.css
 │       │   ├── top-nav.html
