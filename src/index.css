@@ -1,0 +1,41 @@
+/* modules/top-nav/src/top-nav.css */
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  /* modules/community/src/community.css */
+  #community {
+    padding: 20px;
+  }
+  
+  #post-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* modules/bottom-nav/src/bottom-nav.css */
+  #bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* modules/about-us/src/about-us.css */
+  #about-us {
+    padding: 20px;
+  }
+  
+  /* src/style.css (in the main repo) */
+  body {
+    margin: 0;
+    padding-bottom: 60px; /* Adjust for bottom nav */
+  }
